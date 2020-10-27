@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using B83.Win32;
+using System.Collections.Generic;
 
 public class DungeonViewer : MonoBehaviour
 {
@@ -7,6 +9,7 @@ public class DungeonViewer : MonoBehaviour
 
     public Camera mainCamera;
     public RectTransform guiRect;
+    public GameObject help;
     public SpriteRenderer mapRenderer;
     public SpriteRenderer cameraFrame;
     public Vector2 roomSize = new Vector2(10, 8);
@@ -44,7 +47,11 @@ public class DungeonViewer : MonoBehaviour
     public void LoadMap()
     {
         var spritePath = (Application.isEditor ? Application.streamingAssetsPath : Application.dataPath) + "/" + mapName;
+        LoadMap(spritePath);
+    }
 
+    public void LoadMap(string spritePath)
+    {
         var fileExists = System.IO.File.Exists(spritePath);
         if (!fileExists)
             return;
@@ -70,6 +77,9 @@ public class DungeonViewer : MonoBehaviour
 
     private void OnGUI()
     {
+        if (guiRect == null || !guiRect.gameObject.activeSelf)
+            return;
+
         Rect r = GetScreenCoordinatesOfCorners(guiRect);
 
         GUILayout.BeginArea(r, GUIContent.none, new GUIStyle("window"));
@@ -156,6 +166,12 @@ public class DungeonViewer : MonoBehaviour
         }
 
         cameraFrame.transform.position = new Vector3(mainCamera.transform.position.x, mainCamera.transform.position.y, mapRenderer.transform.position.z);
+
+        if( help != null)
+        {
+            if (Input.GetKeyDown(KeyCode.F1))
+                help.SetActive(!help.activeSelf);
+        }
     }
 
     private void SaveCamera()
@@ -170,5 +186,37 @@ public class DungeonViewer : MonoBehaviour
         _cameraPosition.y = PlayerPrefs.GetFloat("_cameraPosition.y", _cameraPosition.y);
 
         mainCamera.transform.position = _cameraPosition + cameraOffset;
+    }
+
+    private void OnEnable()
+    {
+        UnityDragAndDropHook.InstallHook();
+        UnityDragAndDropHook.OnDroppedFiles += OnFiles;
+
+    }
+    private void OnDisable()
+    {
+        UnityDragAndDropHook.UninstallHook();
+    }
+
+    void OnFiles(List<string> aFiles, POINT aPos)
+    {
+        string file = "";
+        // scan through dropped files and filter out supported image types
+        foreach (var f in aFiles)
+        {
+            var fi = new System.IO.FileInfo(f);
+            var ext = fi.Extension.ToLower();
+            if (ext == ".png" || ext == ".jpg" || ext == ".jpeg")
+            {
+                file = f;
+                break;
+            }
+        }
+        // If the user dropped a supported file, create a DropInfo
+        if (file != "")
+        {
+            LoadMap(file);
+        }
     }
 }
