@@ -1,0 +1,37 @@
+{
+    "activeFile": "startMap.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "startMap.tmx": {
+            "scale": 0.7689549180327869,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 472.06928714190536,
+                "y": 481.17255163224513
+            }
+        },
+        "startMap.tmx#exterior": {
+            "scaleInDock": 1
+        },
+        "startMap.tmx#interior": {
+            "scaleInDock": 1
+        },
+        "startMap.tmx#monsters": {
+            "scaleInDock": 1
+        },
+        "startMap.tmx#overworld": {
+            "scaleInDock": 1
+        },
+        "startMap.tmx#sidescrolling": {
+            "scaleInDock": 1
+        }
+    },
+    "openFiles": [
+        "startMap.tmx"
+    ],
+    "project": "",
+    "recentFiles": [
+        "startMap.tmx"
+    ]
+}

@@ -1,0 +1,79 @@
+fileFormatVersion: 2
+guid: 114c04364f0101848989b40c97686b03
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles:
+  - Assets/Tilemaps/dungeon.jpg
+  - Assets/Tilemaps/exterior.jpg
+  - Assets/Tilemaps/overworld.png
+  - Assets/Tilemaps/sidescrolling.png
+  - Assets/Tilemaps/monsters.png
+  - Assets/Tilemaps/139221.png
+  errors:
+  - 'Missing texture asset: dungeon.jpg'
+  - 'Missing texture asset: exterior.jpg'
+  - 'Missing texture asset: overworld.png'
+  - 'Missing texture asset: sidescrolling.png'
+  - 'Missing texture asset: monsters.png'
+  - 'Missing texture asset: 139221.png'
+  - Could not find tile 51. Make sure the tilesets were successfully imported.
+  - Could not find tile 86. Make sure the tilesets were successfully imported.
+  - Could not find tile 87. Make sure the tilesets were successfully imported.
+  - Could not find tile 88. Make sure the tilesets were successfully imported.
+  - Could not find tile 89. Make sure the tilesets were successfully imported.
+  - Could not find tile 25. Make sure the tilesets were successfully imported.
+  - Could not find tile 81. Make sure the tilesets were successfully imported.
+  - Could not find tile 55. Make sure the tilesets were successfully imported.
+  - Could not find tile 177. Make sure the tilesets were successfully imported.
+  - Could not find tile 111. Make sure the tilesets were successfully imported.
+  - Could not find tile 175. Make sure the tilesets were successfully imported.
+  - Could not find tile 176. Make sure the tilesets were successfully imported.
+  - Could not find tile 141. Make sure the tilesets were successfully imported.
+  - Could not find tile 205. Make sure the tilesets were successfully imported.
+  - Could not find tile 206. Make sure the tilesets were successfully imported.
+  - Could not find tile 171. Make sure the tilesets were successfully imported.
+  - Could not find tile 237. Make sure the tilesets were successfully imported.
+  - Could not find tile 239. Make sure the tilesets were successfully imported.
+  - Could not find tile 173. Make sure the tilesets were successfully imported.
+  - Could not find tile 209. Make sure the tilesets were successfully imported.
+  - Could not find tile 52. Make sure the tilesets were successfully imported.
+  - Could not find tile 26. Make sure the tilesets were successfully imported.
+  - Could not find tile 82. Make sure the tilesets were successfully imported.
+  - Could not find tile 112. Make sure the tilesets were successfully imported.
+  - Could not find tile 238. Make sure the tilesets were successfully imported.
+  - Could not find tile 2190. Make sure the tilesets were successfully imported.
+  - Could not find tile 2188. Make sure the tilesets were successfully imported.
+  - Could not find tile 2199. Make sure the tilesets were successfully imported.
+  warnings:
+  - Tileset 'interior' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'exterior' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'overworld' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'sidescrolling' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'monsters' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'custom' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'dungeon_ice' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 21
+  pixelsPerUnit: 16
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 810
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {fileID: 4764264298581427369, guid: 114c04364f0101848989b40c97686b03, type: 3}
+  - {fileID: 7202541044116725403, guid: 114c04364f0101848989b40c97686b03, type: 3}
+  - {fileID: -419313170056242927, guid: 114c04364f0101848989b40c97686b03, type: 3}
+  - {fileID: 5574189692734529760, guid: 114c04364f0101848989b40c97686b03, type: 3}
+  - {fileID: 4109339987551373007, guid: 114c04364f0101848989b40c97686b03, type: 3}
+  - {fileID: 6014254364635026889, guid: 114c04364f0101848989b40c97686b03, type: 3}
+  - {fileID: -2840168235815668672, guid: 114c04364f0101848989b40c97686b03, type: 3}

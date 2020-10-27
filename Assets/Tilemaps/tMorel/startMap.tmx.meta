@@ -1,0 +1,69 @@
+fileFormatVersion: 2
+guid: e1c015386e3eb2d4db629720515d989c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors:
+  - Mismatching width/height detected. Tileset = (480, 384), image = (0, 0). This
+    may happen when a tileset image has been resized. Open map and tileset in Tiled
+    Map Editor and resave.
+  - Mismatching width/height detected. Tileset = (480, 384), image = (0, 0). This
+    may happen when a tileset image has been resized. Open map and tileset in Tiled
+    Map Editor and resave.
+  - Could not find tile 51. Make sure the tilesets were successfully imported.
+  - Could not find tile 86. Make sure the tilesets were successfully imported.
+  - Could not find tile 87. Make sure the tilesets were successfully imported.
+  - Could not find tile 88. Make sure the tilesets were successfully imported.
+  - Could not find tile 89. Make sure the tilesets were successfully imported.
+  - Could not find tile 25. Make sure the tilesets were successfully imported.
+  - Could not find tile 81. Make sure the tilesets were successfully imported.
+  - Could not find tile 177. Make sure the tilesets were successfully imported.
+  - Could not find tile 55. Make sure the tilesets were successfully imported.
+  - Could not find tile 111. Make sure the tilesets were successfully imported.
+  - Could not find tile 141. Make sure the tilesets were successfully imported.
+  - Could not find tile 175. Make sure the tilesets were successfully imported.
+  - Could not find tile 176. Make sure the tilesets were successfully imported.
+  - Could not find tile 205. Make sure the tilesets were successfully imported.
+  - Could not find tile 206. Make sure the tilesets were successfully imported.
+  - Could not find tile 171. Make sure the tilesets were successfully imported.
+  - Could not find tile 173. Make sure the tilesets were successfully imported.
+  - Could not find tile 209. Make sure the tilesets were successfully imported.
+  - Could not find tile 238. Make sure the tilesets were successfully imported.
+  - Could not find tile 237. Make sure the tilesets were successfully imported.
+  - Could not find tile 239. Make sure the tilesets were successfully imported.
+  - Could not find tile 52. Make sure the tilesets were successfully imported.
+  - Could not find tile 26. Make sure the tilesets were successfully imported.
+  - Could not find tile 82. Make sure the tilesets were successfully imported.
+  - Could not find tile 112. Make sure the tilesets were successfully imported.
+  - Could not find tile 234. Make sure the tilesets were successfully imported.
+  - Could not find tile 235. Make sure the tilesets were successfully imported.
+  - Could not find tile 236. Make sure the tilesets were successfully imported.
+  warnings:
+  - Tileset 'interior' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'exterior' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'overworld' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'sidescrolling' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'monsters' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 21
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 1690
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
